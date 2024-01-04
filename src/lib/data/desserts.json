@@ -1,0 +1,126 @@
+[
+	{
+		"id": "s1t2u3v4",
+		"image": "w5x6y7z8.png",
+		"name": "Chocolate Avocado Mousse",
+		"description": "Indulge in a velvety chocolate avocado mousse topped with honey-glazed walnuts and a scoop of vanilla ice cream. A decadent and guilt-free dessert.",
+		"ingredients": ["avocado", "chocolate", "walnut", "honey", "vanilla ice cream"],
+		"slug": "chocolate-avocado-mousse",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	},
+	{
+		"id": "a9b0c1d2",
+		"image": "e3f4g5h6.png",
+		"name": "Mango Coconut Bliss Parfait",
+		"description": "Layers of mango, coconut, Greek yogurt, and a drizzle of honey, topped with chocolate shavings and a scoop of chocolate ice cream. A tropical delight in every spoonful.",
+		"ingredients": [
+			"mango",
+			"coconut",
+			"Greek yogurt",
+			"honey",
+			"chocolate shavings",
+			"chocolate ice cream"
+		],
+		"slug": "mango-coconut-bliss-parfait",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	},
+	{
+		"id": "i7j8k9l0",
+		"image": "m1n2o3p4.png",
+		"name": "Apple Caramel Walnut Tart",
+		"description": "A flaky tart filled with caramelized apples, chopped walnuts, and drizzled with dark chocolate. Served with a side of vanilla ice cream for the perfect finish.",
+		"ingredients": ["apple", "caramel", "walnut", "dark chocolate", "vanilla ice cream"],
+		"slug": "apple-caramel-walnut-tart",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	},
+	{
+		"id": "q5r6s7t8",
+		"image": "u9v0w1x2.png",
+		"name": "Pomegranate Chocolate Trifle",
+		"description": "Layers of chocolate cake, pomegranate seeds, and a rich chocolate mousse, topped with a scoop of chocolate ice cream. A delightful and indulgent trifle.",
+		"ingredients": ["chocolate cake", "pomegranate", "chocolate mousse", "chocolate ice cream"],
+		"slug": "pomegranate-chocolate-trifle",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	},
+	{
+		"id": "y3z4a5b6",
+		"image": "c7d8e9f0.png",
+		"name": "Honey Walnut Banana Split",
+		"description": "A classic banana split with honey-glazed walnuts, drizzled with chocolate sauce and served with scoops of chocolate and vanilla ice cream. A sweet symphony of flavors.",
+		"ingredients": [
+			"banana",
+			"honey",
+			"walnut",
+			"chocolate sauce",
+			"vanilla ice cream",
+			"chocolate ice cream"
+		],
+		"slug": "honey-walnut-banana-split",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	},
+	{
+		"id": "s1t2u3v4",
+		"image": "w5x6y7z8.png",
+		"name": "Caramelized Apple Pecan Tart",
+		"description": "A delightful tart filled with caramelized apples, pecans, and a drizzle of honey. Perfectly sweet and nutty, this dessert is a comforting treat.",
+		"ingredients": ["apple", "caramelized onion", "pecan", "honey"],
+		"slug": "caramelized-apple-pecan-tart",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	},
+	{
+		"id": "a9b0c1d2",
+		"image": "e3f4g5h6.png",
+		"name": "Mango Coconut Chia Pudding",
+		"description": "A light and refreshing chia pudding with layers of mango, coconut, and a drizzle of honey. A tropical twist to satisfy your sweet cravings.",
+		"ingredients": ["mango", "coconut", "chia seeds", "honey"],
+		"slug": "mango-coconut-chia-pudding",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	},
+	{
+		"id": "i7j8k9l0",
+		"image": "m1n2o3p4.png",
+		"name": "Blue Cheese Honey Pear Cups",
+		"description": "Individual cups filled with juicy pears, blue cheese crumbles, and a drizzle of honey. A sophisticated and unique dessert to savor.",
+		"ingredients": ["pear", "blue cheese", "honey"],
+		"slug": "blue-cheese-honey-pear-cups",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	},
+	{
+		"id": "q5r6s7t8",
+		"image": "u9v0w1x2.png",
+		"name": "Chocolate Walnut Stuffed Dates",
+		"description": "Decadent stuffed dates filled with dark chocolate and crunchy walnuts. A bite-sized delight for chocolate and nut lovers.",
+		"ingredients": ["walnut", "dark chocolate", "dates"],
+		"slug": "chocolate-walnut-stuffed-dates",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	},
+	{
+		"id": "y3z4a5b6",
+		"image": "c7d8e9f0.png",
+		"name": "Pomegranate Honey Nut Clusters",
+		"description": "Clusters of pomegranate seeds, mixed nuts, and a drizzle of honey. A delightful and crunchy treat that's both satisfying and sweet.",
+		"ingredients": ["pomegranate", "walnut", "almond", "honey"],
+		"slug": "pomegranate-honey-nut-clusters",
+		"type": "dessert",
+		"vegetarian": true,
+		"spice": 0
+	}
+]
