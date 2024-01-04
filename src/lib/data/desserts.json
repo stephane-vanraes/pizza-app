@@ -1,7 +1,7 @@
 [
 	{
 		"id": "s1t2u3v4",
-		"image": "w5x6y7z8.png",
+		"image": "w5x6y7x8.png",
 		"name": "Chocolate Avocado Mousse",
 		"description": "Indulge in a velvety chocolate avocado mousse topped with honey-glazed walnuts and a scoop of vanilla ice cream. A decadent and guilt-free dessert.",
 		"ingredients": ["avocado", "chocolate", "walnut", "honey", "vanilla ice cream"],
@@ -70,7 +70,7 @@
 	},
 	{
 		"id": "s1t2u3v4",
-		"image": "w5x6y7z8.png",
+		"image": "w5x6y7z5.png",
 		"name": "Caramelized Apple Pecan Tart",
 		"description": "A delightful tart filled with caramelized apples, pecans, and a drizzle of honey. Perfectly sweet and nutty, this dessert is a comforting treat.",
 		"ingredients": ["apple", "caramelized onion", "pecan", "honey"],

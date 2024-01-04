@@ -1,6 +1,10 @@
-import data from './pizzas.json';
+import json_pizza from './pizzas.json';
+import json_salads from './salads.json';
+import json_desserts from './desserts.json';
 
-export const pizzas = data as Pizza[];
+export const pizzas = json_pizza as Pizza[];
+export const salads = json_salads as Salad[];
+export const desserts = json_desserts as Dessert[];
 
 export const pizza_table = pizzas.reduce((lookup, pizza) => {
 	lookup[pizza.id] = pizza;

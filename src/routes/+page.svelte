@@ -1,57 +1,46 @@
 <script lang="ts">
-	import { ingredients, pizzas } from '$lib/data';
-
-	let filter_type: undefined | 'bianca' | 'rossi';
-	let filter_ingredients: string[] = [];
-	let filter_vegetarian = false;
-	$: filtered = pizzas
-		.filter((p) => (filter_type ? p.type == filter_type : true))
-		.filter((p) =>
-			filter_ingredients.length == 0
-				? true
-				: !filter_ingredients.some((fi) => !p.ingredients.includes(fi))
-		)
-		.filter((p) => (!filter_vegetarian ? true : p.vegetarian));
+	import { desserts, pizzas, salads } from '$lib/data';
+	import Card from './Card.svelte';
 </script>
 
-<div>
-	<select bind:value={filter_type}>
-		<option value={undefined}>All</option>
-		<option value="bianca">Bianca</option>
-		<option value="rossi">Rossi</option>
-	</select>
-	<label>
-		<input type="checkbox" bind:value={filter_vegetarian} />
-		<span>Only vegetarian</span>
-	</label>
-	<div>
-		{#each ingredients as ingredient}
-			<label>
-				<input type="checkbox" bind:group={filter_ingredients} value={ingredient} />
-				<span>{ingredient}</span>
-			</label>
+<section>
+	<h2>Pizzas ({pizzas.length})</h2>
+	<ul>
+		{#each pizzas as pizza}
+			<li>
+				<Card {...pizza} />
+			</li>
 		{/each}
-	</div>
-</div>
+	</ul>
+</section>
 
-<p>Count: {filtered.length}</p>
+<section>
+	<h2>Salads ({salads.length})</h2>
+	<ul>
+		{#each salads as salad}
+			<li>
+				<Card {...salad} />
+			</li>
+		{/each}
+	</ul>
+</section>
 
-<ul>
-	{#each filtered as pizza}
-		<li>{pizza.name}</li>
-	{/each}
-</ul>
+<section>
+	<h2>Desserts ({desserts.length})</h2>
+	<ul>
+		{#each desserts as dessert}
+			<li>
+				<Card {...dessert} />
+			</li>
+		{/each}
+	</ul>
+</section>
 
 <style>
-	div {
-		align-items: start;
+	ul {
 		display: grid;
 		gap: 1rem;
-		grid-template-columns: 100px 100px 1fr;
-	}
-
-	div > div {
-		display: flex;
-		flex-wrap: wrap;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		list-style-type: none;
 	}
 </style>
