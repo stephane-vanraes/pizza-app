@@ -33,9 +33,9 @@
 		{/each}
 	</div>
 </div>
-<pre>
-{JSON.stringify(filter_ingredients)}
-</pre>
+
+<p>Count: {filtered.length}</p>
+
 <ul>
 	{#each filtered as pizza}
 		<li>{pizza.name}</li>
