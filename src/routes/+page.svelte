@@ -1,7 +1,18 @@
 <script lang="ts">
-	import { desserts, pizzas, salads } from '$lib/data';
+	import { desserts, drinks, pizzas, salads } from '$lib/data';
 	import Card from './Card.svelte';
 </script>
+
+<section>
+	<h2>Drinks ({drinks.length})</h2>
+	<ul>
+		{#each drinks as drink}
+			<li>
+				<Card {...drink} />
+			</li>
+		{/each}
+	</ul>
+</section>
 
 <section>
 	<h2>Pizzas ({pizzas.length})</h2>
