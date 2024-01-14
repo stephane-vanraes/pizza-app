@@ -1,0 +1,68 @@
+:root {
+  --color-red: hsl(9, 71%, 51%);
+  --color-green: hsl(106, 71%, 51%);
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(/Raleway-Regular.ttf);
+  font-display: swap;
+}
+
+* {
+  color: inherit;
+  font: inherit;
+  line-height: 1.2;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+*, :before, *:after {
+  box-sizing: border-box;
+}
+
+*:where(:active, :focus, :hover) {
+	outline: 0;
+}
+
+html {
+  background-color: black;
+  color: white;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-columns: 1fr 96ch 1fr;
+  hanging-punctuation: first last;
+}
+
+body {
+  grid-column: 2 / 3;
+  min-height: 100svh;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  max-width: 72ch;
+  text-wrap: pretty;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :has(:target) {
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+  }
+}
