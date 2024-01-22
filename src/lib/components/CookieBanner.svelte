@@ -1,25 +1,23 @@
-<script>
-	import { enhance } from '$app/forms';
+<script lang="ts">
 	import { slide } from 'svelte/transition';
 	let answered = false;
 
-	function handleEnhance() {
-		return () => {
-			answered = true;
-		};
+	async function handleClick(answer: string) {
+		await fetch(`/api/cookies?answer=${answer}`, { method: 'POST' });
+		answered = true;
 	}
 </script>
 
 {#if !answered}
-	<form method="POST" action="/api/cookies" use:enhance={handleEnhance} out:slide>
+	<div out:slide>
 		<p>Do you want our cookies ?</p>
-		<button class="cta" type="submit" value="yes" name="answer">Yes</button>
-		<button class="cta" type="submit" value="no" name="answer">No</button>
-	</form>
+		<button class="cta" on:click={() => handleClick('yes')}>Yes</button>
+		<button class="cta" on:click={() => handleClick('no')}>No</button>
+	</div>
 {/if}
 
 <style>
-	form {
+	div {
 		align-items: center;
 		background-color: var(--cta-color);
 		bottom: 0;

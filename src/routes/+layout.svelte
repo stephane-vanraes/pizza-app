@@ -6,7 +6,7 @@
 	export let data;
 </script>
 
-<Header />
+<Header showCart />
 
 <main>
 	<slot />

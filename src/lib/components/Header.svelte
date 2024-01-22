@@ -3,6 +3,9 @@
 	import Icon from '$lib/components/Icon.svelte';
 	import { cart } from '$lib/stores/cart';
 
+	export let showCart = false;
+	$: id = $page.route.id;
+
 	const cart_items = cart.items;
 </script>
 
@@ -14,12 +17,13 @@
 		</a>
 
 		<nav>
-			<a href="/" aria-current={$page.route.id == '/' ? 'page' : 'false'}>Home</a>
-			<a href="/menu" aria-current={$page.route.id?.startsWith('/menu') ? 'page' : 'false'}>Menu</a>
-			{#if $cart_items > 0}
-				<a href="/cart" aria-current={$page.route.id == '/cart' ? 'page' : 'false'}
-					>Cart ({$cart_items} items)</a
-				>
+			<a href="/" class:active={$page.route.id == '/'}>Home</a>
+			<a href="/menu" class:active={$page.route.id?.startsWith('/menu')}>Menu</a>
+			{#if showCart}
+				<a href="/cart" class:active={$page.route.id == '/cart'}>
+					<Icon name="cart" />
+					<span>({$cart_items})</span>
+				</a>
 			{/if}
 		</nav>
 	</header>
@@ -55,11 +59,14 @@
 	}
 
 	nav a {
+		align-items: center;
 		border-block-end: 2px solid transparent;
+		display: flex;
+		gap: 1ch;
 		padding: 0 0.5rem;
 	}
 
-	nav a:where(:active, :focus, :hover, [aria-current~='page']) {
+	nav a:where(:active, :focus, :hover, .active) {
 		border-block-end-color: currentColor;
 	}
 </style>

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { afterNavigate, onNavigate } from '$app/navigation';
 
-  export let discounted: string[] = []
+	export let discounted: string[] = [];
 	export let pizzas: Pizza[] = [];
 
 	let cur_image: HTMLElement | undefined;
@@ -49,6 +49,7 @@
 	ul {
 		align-items: center;
 		display: grid;
+		gap: 0.5rem;
 		grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
 		list-style-type: none;
 		margin-inline: auto;
@@ -56,10 +57,9 @@
 		width: 100%;
 	}
 
-  li {
-    position: relative;
-  }
-
+	li {
+		position: relative;
+	}
 
 	a {
 		border-radius: 0.5rem;
@@ -72,37 +72,40 @@
 		opacity: 1;
 		padding: 0.5rem;
 		text-align: center;
-		transition:
-			background-color 500ms,
-			opacity 500ms;
 	}
 
 	img {
 		aspect-ratio: 1 / 1;
 		border-radius: 50%;
-    display: block;
+		display: block;
 		height: 100px;
-    position: relative;
+		position: relative;
 	}
-  a.discounted:after {
-    background-color: var(--primary-color);
-    clip-path: polygon(0% 0%, 100% 0%, calc(100% - .5rem) 50%, 100% 100%, 0% 100%, .5rem 50%);
-    content: '20% off';
-    position: absolute;
-    top: calc(50% - 2lh);
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
 
+	a.discounted:after {
+		background-color: var(--primary-color);
+		clip-path: polygon(0% 0%, 100% 0%, calc(100% - 0.5rem) 50%, 100% 100%, 0% 100%, 0.5rem 50%);
+		content: '20% off';
+		position: absolute;
+		top: calc(50% - 2lh);
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 
 	a:where(:active, :focus, :hover) {
 		background-color: var(--primary-color);
 		font-weight: 600;
 	}
 
+	a:is(:active, :focus, :hover):after {
+		background-color: var(--background-color) !important;
+		clip-path: none;
+		font-weight: 600;
+	}
+
 	ul:has(a:where(:active, :focus, :hover)) a:not(:where(:active, :focus, :hover)) {
-		--grayness: 1;
-		opacity: 0.75;
+		_--grayness: 1;
+		_opacity: 0.75;
 	}
 </style>

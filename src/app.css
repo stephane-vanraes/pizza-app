@@ -41,6 +41,7 @@ html {
 	color: var(--text-color);
 	font-family: 'Raleway';
 	hanging-punctuation: first last;
+	overflow-y: scroll;
 }
 
 body {
