@@ -13,20 +13,6 @@
 
 	$: setCart(value);
 
-	import { onNavigate } from '$app/navigation';
-
-	onNavigate((navigation) => {
-		//@ts-expect-error
-		if (!document.startViewTransition) return;
-
-		return new Promise((resolve) => {
-			//@ts-expect-error
-			document.startViewTransition(async () => {
-				resolve();
-				await navigation.complete;
-			});
-		});
-	});
 </script>
 
 <div class="wrapper">
@@ -107,7 +93,7 @@
     transform-origin: bottom left;
     transform: translate(3rem, -100%) rotate(45deg);
   }
-  
+
 	img {
 		aspect-ratio: 1 / 1;
 		view-transition-name: image;
