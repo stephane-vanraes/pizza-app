@@ -4,7 +4,7 @@
 @font-face {
 	font-family: 'Raleway';
 	src: url(/Raleway-Regular.ttf);
-	font-display: swap;
+	font-display: block;
 }
 
 * {
@@ -28,16 +28,11 @@
 }
 
 html {
-	background-color: black;
-	color: white;
-	display: grid;
-	font-family: Arial, Helvetica, sans-serif;
-	grid-template-columns: 1fr 96ch 1fr;
+	font-family: 'Raleway';
 	hanging-punctuation: first last;
 }
 
 body {
-	grid-column: 2 / 3;
 	min-height: 100svh;
 	width: 100%;
 }

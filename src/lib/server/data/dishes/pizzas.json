@@ -1,7 +1,7 @@
 [
 	{
 		"id": "a1b2c3d4",
-		"image": "e5f6g7h8.png",
+		"image": "/images/e5f6g7h8.png",
 		"name": "Savory Orchard Delight",
 		"description": "A delightful mix of bacon, apple, caramelized onion, and spinach on a golden crust. The perfect blend of sweet and savory flavors.",
 		"ingredients": ["bacon", "apple", "caramelized onion", "spinach"],
@@ -12,7 +12,7 @@
 	},
 	{
 		"id": "i9j0k1l2",
-		"image": "m3n4o5p6.png",
+		"image": "/images/m3n4o5p6.png",
 		"name": "Mango Tango Fiesta",
 		"description": "Experience the tropical delight with shrimp, mango, avocado, and bell peppers. A fiesta of flavors that will transport you to the beach.",
 		"ingredients": ["shrimp", "mango", "avocado", "bell peppers"],
@@ -23,7 +23,7 @@
 	},
 	{
 		"id": "q7r8s9t0",
-		"image": "u1v2w3x4.png",
+		"image": "/images/u1v2w3x4.png",
 		"name": "Pomegranate Paradise Pleasure",
 		"description": "Indulge in the luxurious combination of prosciutto, pomegranate, blue cheese, and arugula. A paradise on your palate.",
 		"ingredients": ["prosciutto", "pomegranate", "blue cheese", "arugula"],
@@ -34,7 +34,7 @@
 	},
 	{
 		"id": "y5z6a7b8",
-		"image": "c9d0e1f2.png",
+		"image": "/images/c9d0e1f2.png",
 		"name": "Dragon Fire Delight",
 		"description": "Ignite your taste buds with the bold combination of dragon fruit, chili flakes, chicken, and celery. A fiery delight with a touch of exotic sweetness.",
 		"ingredients": ["dragon fruit", "chili flakes", "chicken", "celery"],
@@ -45,7 +45,7 @@
 	},
 	{
 		"id": "g3h4i5j6",
-		"image": "k7l8m9n0.png",
+		"image": "/images/k7l8m9n0.png",
 		"name": "Crispy Walnut Harvest",
 		"description": "A harvest-inspired pizza featuring crispy bacon, walnut, caramelized onion, and thyme. A perfect blend of autumn flavors on a golden crust.",
 		"ingredients": ["bacon", "walnut", "caramelized onion", "thyme"],
@@ -56,7 +56,7 @@
 	},
 	{
 		"id": "o1p2q3r4",
-		"image": "s5t6u7v8.png",
+		"image": "/images/s5t6u7v8.png",
 		"name": "Cucumber Zest Sensation",
 		"description": "Refresh your palate with a unique blend of cucumber, salmon, avocado, and dill. A zesty sensation that's light and flavorful.",
 		"ingredients": ["cucumber", "salmon", "avocado", "dill"],
@@ -67,7 +67,7 @@
 	},
 	{
 		"id": "w9x0y1z2",
-		"image": "a3b4c5d6.png",
+		"image": "/images/a3b4c5d6.png",
 		"name": "Mediterranean Bliss",
 		"description": "Embark on a journey to the Mediterranean with olives, feta, spinach, and cherry tomatoes. A blissful combination of flavors on a crispy crust.",
 		"ingredients": ["olives", "feta", "spinach", "cherry tomatoes"],
@@ -78,7 +78,7 @@
 	},
 	{
 		"id": "e7f8g9h0",
-		"image": "i1j2k3l4.png",
+		"image": "/images/i1j2k3l4.png",
 		"name": "Tropical Breeze Delight",
 		"description": "Escape to the tropics with a pizza featuring mango, coconut, chicken, and bell peppers. A delightful blend of sweet and savory tropical goodness.",
 		"ingredients": ["mango", "coconut", "chicken", "bell peppers"],
@@ -89,7 +89,7 @@
 	},
 	{
 		"id": "m5n6o7p8",
-		"image": "q9r0s1t2.png",
+		"image": "/images/q9r0s1t2.png",
 		"name": "Honey Glazed Harvest",
 		"description": "Savor the warmth of honey-glazed meatballs, caramelized onion, apple, and rosemary. A harvest-inspired delight with a touch of sweetness.",
 		"ingredients": ["meatballs", "caramelized onion", "apple", "rosemary"],
@@ -100,7 +100,7 @@
 	},
 	{
 		"id": "u3v4w5x6",
-		"image": "y7z8a9b0.png",
+		"image": "/images/y7z8a9b0.png",
 		"name": "Green Goddess Pesto",
 		"description": "Experience the goodness of green with a pesto pizza featuring spinach, arugula, broccoli, and green pesto. A flavorful and vibrant vegetarian option.",
 		"ingredients": ["spinach", "arugula", "broccoli", "green pesto"],
@@ -111,7 +111,7 @@
 	},
 	{
 		"id": "c1d2e3f4",
-		"image": "g5h6i7j8.png",
+		"image": "/images/g5h6i7j8.png",
 		"name": "Sweet Chili Mango Tango",
 		"description": "Experience the dance of flavors with sweet chili, mango, bacon, and avocado. A tropical twist with a touch of spice.",
 		"ingredients": ["sweet chili", "mango", "bacon", "avocado"],
@@ -122,7 +122,7 @@
 	},
 	{
 		"id": "k9l0m1n2",
-		"image": "o3p4q5r6.png",
+		"image": "/images/o3p4q5r6.png",
 		"name": "Crispy Prosciutto Delight",
 		"description": "Indulge in the crispiness of prosciutto paired with caramelized onion, blue cheese, and walnut. A delightful medley of rich and savory flavors.",
 		"ingredients": ["prosciutto", "caramelized onion", "blue cheese", "walnut"],
@@ -133,7 +133,7 @@
 	},
 	{
 		"id": "s7t8u9v0",
-		"image": "w1x2y3z4.png",
+		"image": "/images/w1x2y3z4.png",
 		"name": "Spicy Salmon Fiesta",
 		"description": "Heat things up with spicy salmon, bell peppers, chili flakes, and cilantro. A fiery fiesta that packs a punch.",
 		"ingredients": ["spicy salmon", "bell peppers", "chili flakes", "cilantro"],
@@ -144,7 +144,7 @@
 	},
 	{
 		"id": "a5b6c7d8",
-		"image": "e9f0g1h2.png",
+		"image": "/images/e9f0g1h2.png",
 		"name": "Apricot Glazed Bliss",
 		"description": "Delight in the sweetness of apricot glaze combined with meatballs, spinach, and thyme. A blissful harmony of sweet and savory notes.",
 		"ingredients": ["apricot glaze", "meatballs", "spinach", "thyme"],
@@ -155,7 +155,7 @@
 	},
 	{
 		"id": "i3j4k5l6",
-		"image": "m7n8o9p0.png",
+		"image": "/images/m7n8o9p0.png",
 		"name": "Pesto Veggie Delight",
 		"description": "Savor the delight of a veggie pizza with pesto, broccoli, bell peppers, and olives. A flavorful vegetarian option that's light and satisfying.",
 		"ingredients": ["pesto", "broccoli", "bell peppers", "olives"],
@@ -166,7 +166,7 @@
 	},
 	{
 		"id": "q1r2s3t4",
-		"image": "u5v6w7x8.png",
+		"image": "/images/u5v6w7x8.png",
 		"name": "Blue Cheese Bacon Bonanza",
 		"description": "Indulge in the richness of blue cheese paired with crispy bacon, caramelized onion, and honey. A bonanza of bold and savory flavors.",
 		"ingredients": ["blue cheese", "bacon", "caramelized onion", "honey"],
@@ -177,7 +177,7 @@
 	},
 	{
 		"id": "y9z0a1b2",
-		"image": "c3d4e5f6.png",
+		"image": "/images/c3d4e5f6.png",
 		"name": "Taco Chip Fiesta",
 		"description": "Celebrate with a fiesta of flavors featuring taco chips, chicken, bell peppers, and cilantro. A crunchy and savory delight with a hint of spice.",
 		"ingredients": ["taco chips", "chicken", "bell peppers", "cilantro"],
@@ -188,7 +188,7 @@
 	},
 	{
 		"id": "g7h8i9j0",
-		"image": "k1l2m3n4.png",
+		"image": "/images/k1l2m3n4.png",
 		"name": "Mango Walnut Medley",
 		"description": "Experience a medley of flavors with mango, walnut, spinach, and feta. A perfect balance of sweetness and nuttiness on a golden crust.",
 		"ingredients": ["mango", "walnut", "spinach", "feta"],
@@ -199,7 +199,7 @@
 	},
 	{
 		"id": "o5p6q7r8",
-		"image": "s9t0u1v2.png",
+		"image": "/images/s9t0u1v2.png",
 		"name": "Cranberry Pesto Delight",
 		"description": "Savor the tanginess of cranberries combined with the freshness of pesto, cucumber, and chicken. A delightful pesto creation with a hint of sweetness.",
 		"ingredients": ["cranberries", "pesto", "cucumber", "chicken"],
@@ -210,7 +210,7 @@
 	},
 	{
 		"id": "w3x4y5z6",
-		"image": "a7b8c9d0.png",
+		"image": "/images/a7b8c9d0.png",
 		"name": "Avocado Honey Harmony",
 		"description": "Experience the harmony of avocado, honey, prosciutto, and arugula. A unique blend of creamy, sweet, and savory flavors on a golden crust.",
 		"ingredients": ["avocado", "honey", "prosciutto", "arugula"],
@@ -221,7 +221,7 @@
 	},
 	{
 		"id": "e1f2g3h4",
-		"image": "i5j6k7l8.png",
+		"image": "/images/i5j6k7l8.png",
 		"name": "Spicy Bacon Explosion",
 		"description": "A fiery explosion of flavors with spicy bacon, chili flakes, caramelized onion, and bell peppers. Prepare for a taste bud sensation.",
 		"ingredients": ["spicy bacon", "chili flakes", "caramelized onion", "bell peppers"],
@@ -232,7 +232,7 @@
 	},
 	{
 		"id": "m9n0o1p2",
-		"image": "q3r4s5t6.png",
+		"image": "/images/q3r4s5t6.png",
 		"name": "Savory Walnut Blast",
 		"description": "Experience the blast of savory flavors with walnut, prosciutto, blue cheese, and rosemary. A perfect harmony of rich and nutty notes.",
 		"ingredients": ["walnut", "prosciutto", "blue cheese", "rosemary"],
@@ -243,7 +243,7 @@
 	},
 	{
 		"id": "u7v8w9x0",
-		"image": "y1z2a3b4.png",
+		"image": "/images/y1z2a3b4.png",
 		"name": "Chili Mango Madness",
 		"description": "Embrace the madness with chili mango, shrimp, avocado, and cilantro. A tropical and spicy twist that will leave you craving more.",
 		"ingredients": ["chili mango", "shrimp", "avocado", "cilantro"],
@@ -254,7 +254,7 @@
 	},
 	{
 		"id": "c5d6e7f8",
-		"image": "g9h0i1j2.png",
+		"image": "/images/g9h0i1j2.png",
 		"name": "Honey Mustard Chicken Kick",
 		"description": "Get a kick of flavor with honey mustard chicken, bell peppers, olives, and thyme. A perfect balance of sweet and savory with a hint of spice.",
 		"ingredients": ["honey mustard chicken", "bell peppers", "olives", "thyme"],
@@ -265,7 +265,7 @@
 	},
 	{
 		"id": "k3l4m5n6",
-		"image": "o7p8q9r0.png",
+		"image": "/images/o7p8q9r0.png",
 		"name": "Crispy Apple Fusion",
 		"description": "Experience a fusion of flavors with crispy bacon, apple, cranberries, and chili flakes. A crispy and mildly spicy delight for your taste buds.",
 		"ingredients": ["bacon", "apple", "cranberries", "chili flakes"],
@@ -276,7 +276,7 @@
 	},
 	{
 		"id": "s1t2u3v4",
-		"image": "w5x6y7z9.png",
+		"image": "/images/w5x6y7z9.png",
 		"name": "Mango Habanero Heatwave",
 		"description": "Brace yourself for a heatwave of flavors with mango, habanero-infused meatballs, bell peppers, and cilantro. A spicy tropical delight.",
 		"ingredients": ["mango", "habanero-infused meatballs", "bell peppers", "cilantro"],
@@ -287,7 +287,7 @@
 	},
 	{
 		"id": "a9b0c1d2",
-		"image": "e3f4g5h6.png",
+		"image": "/images/e3f4g5h6.png",
 		"name": "Bacon Jalapeño Fiesta",
 		"description": "Join the fiesta with crispy bacon, jalapeño, caramelized onion, and avocado. A spicy and savory celebration on a golden crust.",
 		"ingredients": ["bacon", "jalapeño", "caramelized onion", "avocado"],
@@ -298,7 +298,7 @@
 	},
 	{
 		"id": "i7j8k9l0",
-		"image": "m1n2o3p4.png",
+		"image": "/images/m1n2o3p4.png",
 		"name": "Cranberry Walnut Crush",
 		"description": "Indulge in the crush of flavors with cranberry, walnut, prosciutto, and rosemary. A nutty and mildly spicy sensation on a crispy crust.",
 		"ingredients": ["cranberry", "walnut", "prosciutto", "rosemary"],
@@ -309,7 +309,7 @@
 	},
 	{
 		"id": "q5r6s7t8",
-		"image": "u9v0w1x2.png",
+		"image": "/images/u9v0w1x2.png",
 		"name": "Chili Lime Shrimp Extravaganza",
 		"description": "Experience an extravaganza of flavors with chili lime shrimp, bell peppers, cilantro, and olives. A zesty and mildly spicy delight.",
 		"ingredients": ["chili lime shrimp", "bell peppers", "cilantro", "olives"],
@@ -320,7 +320,7 @@
 	},
 	{
 		"id": "y3z4a5b6",
-		"image": "c7d8e9f0.png",
+		"image": "/images/c7d8e9f0.png",
 		"name": "Honey Sriracha Sensation",
 		"description": "Delight in the sweet and spicy sensation with honey sriracha glazed chicken, broccoli, bell peppers, and thyme. A flavorful rollercoaster for your taste buds.",
 		"ingredients": ["honey sriracha glazed chicken", "broccoli", "bell peppers", "thyme"],
