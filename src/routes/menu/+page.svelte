@@ -3,4 +3,4 @@
 	export let data;
 </script>
 
-<PizzaList pizzas={data.pizzas} />
+<PizzaList pizzas={data.pizzas} discounted={data.discounted} />

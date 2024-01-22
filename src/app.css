@@ -118,3 +118,7 @@ button.cta {
 	--text: var(--button-bg-color);
 	--text-hover: var(--button-text-color);
 }
+
+.image {
+	view-transition-name: image;
+}

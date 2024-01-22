@@ -9,7 +9,7 @@
 	<span>Back to Menu</span>
 </a>
 
-<Pizza pizza={data.pizza} />
+<Pizza pizza={data.pizza} discounted={data.discounted} />
 
 <style>
 	a {
