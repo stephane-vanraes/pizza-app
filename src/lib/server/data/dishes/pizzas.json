@@ -7,6 +7,7 @@
 		"ingredients": ["bacon", "apple", "caramelized onion", "spinach"],
 		"slug": "savory-orchard-delight",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -18,6 +19,7 @@
 		"ingredients": ["shrimp", "mango", "avocado", "bell peppers"],
 		"slug": "mango-tango-fiesta",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -29,6 +31,7 @@
 		"ingredients": ["prosciutto", "pomegranate", "blue cheese", "arugula"],
 		"slug": "pomegranate-paradise-pleasure",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -40,6 +43,7 @@
 		"ingredients": ["dragon fruit", "chili flakes", "chicken", "celery"],
 		"slug": "dragon-fire-delight",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -51,6 +55,7 @@
 		"ingredients": ["bacon", "walnut", "caramelized onion", "thyme"],
 		"slug": "crispy-walnut-harvest",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -62,6 +67,7 @@
 		"ingredients": ["cucumber", "salmon", "avocado", "dill"],
 		"slug": "cucumber-zest-sensation",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -73,6 +79,7 @@
 		"ingredients": ["olives", "feta", "spinach", "cherry tomatoes"],
 		"slug": "mediterranean-bliss",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": true,
 		"spice": 0
 	},
@@ -84,6 +91,7 @@
 		"ingredients": ["mango", "coconut", "chicken", "bell peppers"],
 		"slug": "tropical-breeze-delight",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -95,6 +103,7 @@
 		"ingredients": ["meatballs", "caramelized onion", "apple", "rosemary"],
 		"slug": "honey-glazed-harvest",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -106,6 +115,7 @@
 		"ingredients": ["spinach", "arugula", "broccoli", "green pesto"],
 		"slug": "green-goddess-pesto",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": true,
 		"spice": 0
 	},
@@ -117,6 +127,7 @@
 		"ingredients": ["sweet chili", "mango", "bacon", "avocado"],
 		"slug": "sweet-chili-mango-tango",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -128,6 +139,7 @@
 		"ingredients": ["prosciutto", "caramelized onion", "blue cheese", "walnut"],
 		"slug": "crispy-prosciutto-delight",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -139,6 +151,7 @@
 		"ingredients": ["spicy salmon", "bell peppers", "chili flakes", "cilantro"],
 		"slug": "spicy-salmon-fiesta",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 2
 	},
@@ -150,6 +163,7 @@
 		"ingredients": ["apricot glaze", "meatballs", "spinach", "thyme"],
 		"slug": "apricot-glazed-bliss",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -161,6 +175,7 @@
 		"ingredients": ["pesto", "broccoli", "bell peppers", "olives"],
 		"slug": "pesto-veggie-delight",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": true,
 		"spice": 0
 	},
@@ -172,6 +187,7 @@
 		"ingredients": ["blue cheese", "bacon", "caramelized onion", "honey"],
 		"slug": "blue-cheese-bacon-bonanza",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -183,6 +199,7 @@
 		"ingredients": ["taco chips", "chicken", "bell peppers", "cilantro"],
 		"slug": "taco-chip-fiesta",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -194,6 +211,7 @@
 		"ingredients": ["mango", "walnut", "spinach", "feta"],
 		"slug": "mango-walnut-medley",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": true,
 		"spice": 0
 	},
@@ -205,6 +223,7 @@
 		"ingredients": ["cranberries", "pesto", "cucumber", "chicken"],
 		"slug": "cranberry-pesto-delight",
 		"type": "bianca",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -216,6 +235,7 @@
 		"ingredients": ["avocado", "honey", "prosciutto", "arugula"],
 		"slug": "avocado-honey-harmony",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 0
 	},
@@ -227,6 +247,7 @@
 		"ingredients": ["spicy bacon", "chili flakes", "caramelized onion", "bell peppers"],
 		"slug": "spicy-bacon-explosion",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 2
 	},
@@ -238,6 +259,7 @@
 		"ingredients": ["walnut", "prosciutto", "blue cheese", "rosemary"],
 		"slug": "savory-walnut-blast",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -249,6 +271,7 @@
 		"ingredients": ["chili mango", "shrimp", "avocado", "cilantro"],
 		"slug": "chili-mango-madness",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 3
 	},
@@ -260,6 +283,7 @@
 		"ingredients": ["honey mustard chicken", "bell peppers", "olives", "thyme"],
 		"slug": "honey-mustard-chicken-kick",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -271,6 +295,7 @@
 		"ingredients": ["bacon", "apple", "cranberries", "chili flakes"],
 		"slug": "crispy-apple-fusion",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -282,6 +307,7 @@
 		"ingredients": ["mango", "habanero-infused meatballs", "bell peppers", "cilantro"],
 		"slug": "mango-habanero-heatwave",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 3
 	},
@@ -293,6 +319,7 @@
 		"ingredients": ["bacon", "jalapeño", "caramelized onion", "avocado"],
 		"slug": "bacon-jalapeno-fiesta",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 2
 	},
@@ -304,6 +331,7 @@
 		"ingredients": ["cranberry", "walnut", "prosciutto", "rosemary"],
 		"slug": "cranberry-walnut-crush",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -315,6 +343,7 @@
 		"ingredients": ["chili lime shrimp", "bell peppers", "cilantro", "olives"],
 		"slug": "chili-lime-shrimp-extravaganza",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 1
 	},
@@ -326,6 +355,7 @@
 		"ingredients": ["honey sriracha glazed chicken", "broccoli", "bell peppers", "thyme"],
 		"slug": "honey-sriracha-sensation",
 		"type": "rossi",
+		"price": 150,
 		"vegetarian": false,
 		"spice": 2
 	}

@@ -1,4 +1,13 @@
 :root {
+	--primary-color: #ff6347; /* Tomato Red */
+	--secondary-color: #556b2f; /* Olive Green */
+	--accent-color: #fff5ee; /* Mozzarella White */
+	--cta-color: #ffdb58; /* Mustard Yellow */
+	--background-color: #f5deb3; /* Wheat Tan */
+	--text-color: #333333; /* Charcoal Gray */
+	--button-bg-color: #ffdb58; /* Mustard Yellow */
+	--button-text-color: #333333; /* Charcoal Gray */
+	--pepperoni-brown: #8b4513; /* Pepperoni Brown */
 }
 
 @font-face {
@@ -28,6 +37,8 @@
 }
 
 html {
+	background-color: var(--background-color);
+	color: var(--text-color);
 	font-family: 'Raleway';
 	hanging-punctuation: first last;
 }
@@ -68,4 +79,42 @@ video {
 		scroll-behavior: smooth;
 		scroll-padding-top: 1rem;
 	}
+}
+
+/**
+  * BUTTONS
+  */
+
+button,
+a.btn {
+	--background: var(--button-bg-color);
+	--background-hover: var(--button-text-color);
+	--text: var(--button-text-color);
+	--text-hover: var(--button-bg-color);
+	align-items: center;
+	background-color: var(--background);
+	border-radius: 4px;
+	border: 2px solid currentColor;
+	color: var(--text);
+	display: flex;
+	gap: 1ch;
+	padding: 0.25rem 1rem;
+}
+
+button:where(:active, :focus, :hover),
+a.btn:where(:active, :focus, :hover) {
+	background-color: var(--background-hover);
+	color: var(--text-hover);
+}
+
+a.btn:not(.cta),
+button:not(.cta) {
+	border-color: var(--button-text-color);
+}
+
+button.cta {
+	--background: var(--button-text-color);
+	--background-hover: var(--button-bg-color);
+	--text: var(--button-bg-color);
+	--text-hover: var(--button-text-color);
 }
