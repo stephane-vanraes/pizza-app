@@ -1,7 +1,7 @@
-import { pizzas } from "$lib/server/data";
+import { pizzas } from '$lib/server/data';
 
 export async function load() {
-  return {
-    pizzas
-  }
+	return {
+		pizzas
+	};
 }
