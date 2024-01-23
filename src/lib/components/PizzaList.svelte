@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { afterNavigate, onNavigate } from '$app/navigation';
+	import Icon from './Icon.svelte';
 
 	export let discounted: string[] = [];
 	export let pizzas: Pizza[] = [];
@@ -39,7 +40,10 @@
 		<li>
 			<a href="/menu/{pizza.id}" class:discounted={discounted.includes(pizza.id)}>
 				<img src={pizza.image} alt="" bind:this={images[pizza.id]} />
-				<p>{pizza.name}</p>
+				<p>{pizza.name}
+          {#if pizza.vegetarian}
+            <Icon name="leaf" />
+          {/if}</p>
 			</a>
 		</li>
 	{/each}
@@ -108,4 +112,9 @@
 		_--grayness: 1;
 		_opacity: 0.75;
 	}
+
+  a :global(svg) {
+    color: var(--secondary-color);
+    display: inline-block;
+  }
 </style>

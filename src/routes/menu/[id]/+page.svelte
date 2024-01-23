@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Icon from '$lib/components/Icon.svelte';
 	import Pizza from '$lib/components/Pizza.svelte';
+	import Related from '$lib/components/Related.svelte';
 	export let data;
 </script>
 
@@ -10,6 +11,8 @@
 </a>
 
 <Pizza pizza={data.pizza} discounted={data.discounted} />
+
+<Related related={data.related} />
 
 <style>
 	a {

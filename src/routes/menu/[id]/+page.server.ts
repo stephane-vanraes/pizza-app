@@ -1,12 +1,17 @@
 import { DISCOUNTED } from '$env/static/private';
-import { pizzas_lookup } from '$lib/server/data/index.js';
+import { pizzas_lookup, related } from '$lib/server/data/index.js';
 import { error } from '@sveltejs/kit';
 
 export async function load({ params }) {
 	const pizza = pizzas_lookup[params.id];
 
+	if (!pizza) {
+		return error(404);
+	}
+
 	return {
 		pizza,
-		discounted: DISCOUNTED.split(',').includes(params.id)
+		discounted: DISCOUNTED.split(',').includes(params.id),
+		related: related(pizza)
 	};
 }

@@ -62,6 +62,17 @@ h1 {
 	font-size: 2rem;
 }
 
+h2 {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+hr {
+	border: 0;
+	border-block-start: 2px solid currentColor;
+	margin: auto;
+	width: 80%;
+}
 p {
 	max-width: 72ch;
 	text-wrap: pretty;
