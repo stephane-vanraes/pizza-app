@@ -21,7 +21,7 @@
   {:else}
     <p>{pizza.price} NOK</p>
   {/if}
-		<input type="number" value={pizza.amount} on:input={handleInput(pizza)} />
+		<input type="number" value={pizza.amount} on:input={handleInput(pizza)} name={pizza.id}/>
     <span>{pizza.price * pizza.amount} NOK</span>
 		<button on:click={() => cart.remove(pizza)}>
       <Icon name="bin" />
@@ -33,6 +33,8 @@
     <span>{$total} NOK</span>
   </div>
 </div>
+
+
 
 <style>
 	div {

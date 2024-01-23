@@ -30,8 +30,11 @@ function createCart() {
 		Object.values($store).reduce((acc, cur) => acc + cur.amount * cur.price, 0)
 	);
 
+	const clear = () => store.set({});
+
 	return {
 		add,
+		clear,
 		items,
 		remove,
 		subscribe: store.subscribe,
