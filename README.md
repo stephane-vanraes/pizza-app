@@ -1,6 +1,14 @@
 # Pizza-App
 
-things to add before demo
+## Description
 
-- something with env variables ?
-- form action
+A silly app to demo some of SvelteKit's features
+
+## Content
+
+Images by Stable Diffusion
+Descriptions by ChatGPT
+
+## Contributing
+
+Just make an issue / PR
