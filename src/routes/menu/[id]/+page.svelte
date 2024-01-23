@@ -10,7 +10,7 @@
 	<span>Back to Menu</span>
 </a>
 
-<Pizza pizza={data.pizza} discounted={data.discounted} />
+<Pizza pizza={data.pizza} />
 
 <Related related={data.related} />
 

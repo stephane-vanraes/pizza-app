@@ -1,4 +1,3 @@
-import { DISCOUNTED } from '$env/static/private';
 import { pizzas_lookup, related } from '$lib/server/data/index.js';
 import { error } from '@sveltejs/kit';
 
@@ -11,7 +10,6 @@ export async function load({ params }) {
 
 	return {
 		pizza,
-		discounted: DISCOUNTED.split(',').includes(params.id),
 		related: related(pizza)
 	};
 }

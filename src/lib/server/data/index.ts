@@ -19,9 +19,16 @@ export const images = Object.keys(files).reduce(
  * PIZZAS
  */
 
+import { DISCOUNTED } from '$env/static/private';
 import json_pizza from './dishes/pizzas.json';
 
 export const pizzas = json_pizza as Pizza[];
+
+DISCOUNTED.split(',').forEach((d) => {
+	const pizza = pizzas.find((p) => p.id == d);
+	pizza && (pizza.discounted = true);
+});
+
 export const pizzas_lookup = pizzas.reduce(
 	(lookup, pizza) => {
 		lookup[pizza.id] = pizza;

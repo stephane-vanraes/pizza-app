@@ -3,7 +3,6 @@
 	import NumberField from './NumberField.svelte';
 	import { cart } from '$lib/stores/cart';
 
-  export let discounted = false;
 	export let pizza: Pizza;
 
 	let value = $cart[pizza.id]?.amount ?? 0;
@@ -20,7 +19,7 @@
 	<div>
 		<h1>{pizza.name}</h1>
 		<p>{pizza.description}</p>
-    {#if discounted}
+    {#if pizza.discounted}
       <p class="discount_banner">Now 20% off</p>
     {/if}
 	</div>
@@ -28,7 +27,7 @@
 
 <form>
 	<NumberField label="In Cart" bind:value />
- 	{#if discounted}
+ 	{#if pizza.discounted}
     <span class="discounted">{pizza.price} NOK</span>
     <span>{pizza.price * .8} NOK</span>
   {:else}

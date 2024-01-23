@@ -1,6 +1,6 @@
 <script lang="ts">
 	import OrderDetails from '$lib/components/OrderDetails.svelte';
-	import { cart } from '$lib/stores/cart';
+  export let data
 </script>
 
 <h1>Your Order</h1>

@@ -9,4 +9,5 @@ type Pizza = {
 	type: 'rossi' | 'bianca';
 	vegetarian: boolean;
 	spice: 0 | 1 | 2 | 3;
+	discounted?: boolean;
 };

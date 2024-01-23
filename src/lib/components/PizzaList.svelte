@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { afterNavigate, onNavigate } from '$app/navigation';
 	import Icon from './Icon.svelte';
-
-	export let discounted: string[] = [];
+  
 	export let pizzas: Pizza[] = [];
 
 	let cur_image: HTMLElement | undefined;
@@ -38,7 +37,7 @@
 <ul>
 	{#each pizzas as pizza}
 		<li>
-			<a href="/menu/{pizza.id}" class:discounted={discounted.includes(pizza.id)}>
+			<a href="/menu/{pizza.id}" class:discounted={pizza.discounted}>
 				<img src={pizza.image} alt="" bind:this={images[pizza.id]} />
 				<p>{pizza.name}
           {#if pizza.vegetarian}
