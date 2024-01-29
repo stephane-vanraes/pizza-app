@@ -3,8 +3,13 @@
 	import CookieBanner from '$lib/components/CookieBanner.svelte';
 	import Icons from '$lib/components/Icons.svelte';
 	import Header from '$lib/components/Header.svelte';
+	import { PUBLIC_TITLE } from '$env/static/public';
 	export let data;
 </script>
+
+<svelte:head>
+  <title>{PUBLIC_TITLE}</title>
+</svelte:head>
 
 <Header showCart />
 
