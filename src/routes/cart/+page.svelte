@@ -16,6 +16,7 @@
 {:else}
   <form method="POST" use:enhance>
   <OrderDetails />
-  <button>I want Pizza</button>
+  <button type="submit">I want Pizza</button>
+  <button type="button" on:click={cart.demo}>Fill Cart</button>
 </form>
 {/if}

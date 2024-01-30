@@ -32,9 +32,15 @@ function createCart() {
 
 	const clear = () => store.set({});
 
+	const demo = async () => {
+		const items = await fetch('/api/demo').then((res) => res.json());
+		store.set(items);
+	};
+
 	return {
 		add,
 		clear,
+		demo,
 		items,
 		remove,
 		subscribe: store.subscribe,
