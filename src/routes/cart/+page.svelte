@@ -31,8 +31,18 @@
   <p>{form?.order_id}</p>
 {:else}
   <form method="POST" use:enhance={handleOrder}>
-  <OrderDetails />
-  <button type="submit">I want Pizza</button>
-  <button type="button" on:click={cart.demo}>Fill Cart</button>
-</form>
+    <OrderDetails />
+    <div>
+      <button type="submit">I want Pizza</button>
+      <button type="button" on:click={cart.demo}>Fill Cart</button>
+    </div>
+  </form>
 {/if}
+
+<style>
+  div {
+    display: flex;
+    justify-content: space-around;
+    margin-block-start: 2rem;
+  }
+</style>
